@@ -1,16 +1,10 @@
-# DevOps Learning Project
+## Kubernetes Components
 
-This repository showcases my hands-on learning in DevOps tools and concepts.
+### Deployment
+- Manages nginx application pods
 
-## Technologies Covered
-- Git & GitHub
-- Docker
-- Kubernetes
+### Service
+- Exposes pods internally using ClusterIP
 
-## Kubernetes
-- Deployment manifest for nginx application
-
-## Docker
-- Basic Dockerfile example
-
-This project reflects my practical approach towards learning DevOps as a fresher.
+### Ingress
+- Routes external HTTP traffic to nginx service
