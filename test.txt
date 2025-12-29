@@ -1,0 +1,4 @@
+echo "auto mirror test" >> test.txt
+git add .
+git commit -m "mirror working"
+git push
